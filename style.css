@@ -1,0 +1,214 @@
+
+
+#Tabs {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid blue;
+  font-size:small;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: space-evenly;
+}
+
+#Tab1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+#Tab2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0;
+    padding: 10px;
+    border-top: 1px solid #cecece;
+    min-height: 84vh;
+    flex-direction: column;
+    font-size: small;
+}
+
+/* Tablet  */
+@media only screen and (min-width: 600px) {
+  #container {
+    flex-direction: column;
+    font-size: medium;
+  }
+  #Tabs {
+    font-size: medium;
+  }
+  #copyright {
+    font-size: small;
+  }
+  footer {
+    font-size: small;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 800px) {
+  #container {
+    flex-direction: row;
+    font-size: medium;
+  }
+  #copyright {
+    font-size: small;
+  }
+  footer {
+    font-size: small;
+  }
+  #Tabs {
+    font-size: medium;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #Tab1 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    flex: 1 0 0;
+  }
+  #Tab2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 10px;
+    flex: 1 0 0;
+  }
+}
+
+#title{
+    color: rgba(31, 31, 31, 0.774);
+}
+
+#Title-left {
+    display: flex;
+    justify-content: left;
+    padding: 10;
+    flex: 0 0 10;
+    text-align: center;
+    flex-direction: column;
+    border-right: 1px solid #cecece;
+    padding: 20px;
+    line-height: 5px;
+}
+
+#About-right {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: left;
+    flex: 1 0 0;  
+    padding: 30px;
+}
+
+img{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+div.lists {
+    display: flex;
+    flex-direction: row;
+}
+
+#copyright {
+    text-align: center;
+    border-top: 1px solid #cecece;
+    margin-top: auto;
+    font-size: smaller;
+}
+
+a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 1;
+    color: black;
+  }
+  
+  a:link,
+  a:focus {
+    color: grey;
+  }
+  
+  a:hover {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  a:active,
+  a:visited {
+    font-weight: bold;
+  }
+
+  #intro {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #progress {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .progress-bar{
+    width: auto;
+  }
+
+  #credentials {
+    color: rgb(160, 160, 160);
+  }
+
+  .university {
+    line-height: 0%;
+  }
+
+  .year {
+    line-height: 0%;
+    text-align: right;
+  }
+
+  #phd {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+  #master {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+  #bachelor {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+  #credentials {
+    line-height: 100px;
+  }
+
+  .name {
+    font-weight:bold;
+  }
+
+  #list {
+    text-align: justify;
+  }
+
+  .article {
+    margin: 10px 0;
+  }
+
