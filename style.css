@@ -138,7 +138,8 @@ a {
   
   a:link,
   a:focus {
-    color: grey;
+    color: black;
+    font-weight: bold;
   }
   
   a:hover {
